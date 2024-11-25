@@ -1,0 +1,520 @@
+.dashboard {
+  background-color: #fff2fa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dashboard .div {
+  background-color: #fff2fa;
+  overflow: hidden;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.dashboard .header {
+  position: absolute;
+  width: 1444px;
+  height: 173px;
+  top: -12px;
+  left: 0;
+  background-color: transparent;
+}
+
+.dashboard .overlap {
+  position: relative;
+  width: 1440px;
+  height: 161px;
+  top: 12px;
+}
+
+.dashboard .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  background-color: #ffd9f2;
+}
+
+.dashboard .sign-up,
+.dashboard .sign-in {
+  position: absolute;
+  width: 142px;
+  height: 50px;
+  top: 50px;
+  background-color: #A84E86; /* Background color untuk tombol */
+  border-radius: 64px; /* Membuat sudut melengkung */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan */
+  cursor: pointer;
+}
+
+.dashboard .sign-up {
+  left: 1269px; /* Lokasi tombol sign-up */
+}
+
+.dashboard .sign-in {
+  left: 1115px; /* Lokasi tombol sign-in */
+}
+
+.dashboard .sign-up .text-wrapper,
+.dashboard .sign-in .text-wrapper {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff; /* Warna teks */
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .search-bar {
+  position: absolute;
+  width: 254px;
+  height: 50px;
+  top: 50px;
+  left: 849px;
+}
+
+.dashboard .overlap-2 {
+  position: relative;
+  width: 252px;
+  height: 50px;
+  background-color: #a8a8a8;
+  border-radius: 64px;
+}
+
+.dashboard .text-wrapper-2 {
+  position: absolute;
+  width: 98px;
+  top: 10px;
+  left: 16px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #fffafa;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .search {
+  position: absolute;
+  width: 21px;
+  height: 22px;
+  top: 14px;
+  left: 212px;
+}
+
+.dashboard .home {
+  position: absolute;
+  width: 74px;
+  height: 36px;
+  top: 57px;
+  left: 230px;
+}
+
+.dashboard .overlap-3 {
+  position: relative;
+  width: 72px;
+  height: 37px;
+}
+
+.dashboard .vector {
+  position: absolute;
+  width: 69px;
+  height: 2px;
+  top: 35px;
+  left: -2px;
+}
+
+.dashboard .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #a84e86;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.dashboard .text-wrapper-4 {
+  position: absolute;
+  top: 57px;
+  left: 501px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #a17992;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .text-wrapper-5 {
+  position: absolute;
+  top: 57px;
+  left: 348px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #a17992;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .logo {
+  position: absolute;
+  width: 158px;
+  height: 161px;
+  top: 0;
+  left: 12px;
+  object-fit: cover;
+}
+
+.dashboard .sidebar {
+  position: absolute;
+  width: 245px;
+  height: 815px;
+  top: 176px;
+  left: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.dashboard .user-health-profile {
+  position: absolute;
+  width: 186px;
+  height: 72px;
+  top: 43px;
+  left: 30px;
+}
+
+.dashboard .text-wrapper-6 {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #e7019c;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .img {
+  width: 41px;
+  height: 47px;
+  top: 12px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.dashboard .interactive {
+  position: absolute;
+  width: 192px;
+  height: 72px;
+  top: 143px;
+  left: 30px;
+}
+
+.dashboard .nutrition-calender {
+  position: absolute;
+  width: 162px;
+  height: 72px;
+  top: 243px;
+  left: 28px;
+}
+
+.dashboard .nutrition-calender-2 {
+  position: absolute;
+  top: 0;
+  left: 49px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #e7019c;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .icon-nutrition {
+  position: absolute;
+  width: 43px;
+  height: 47px;
+  top: 12px;
+  left: 0;
+  object-fit: cover;
+}
+
+.dashboard .health-data-report {
+  position: absolute;
+  width: 190px;
+  height: 72px;
+  top: 343px;
+  left: 30px;
+}
+
+.dashboard .icon-final-report {
+  position: absolute;
+  width: 42px;
+  height: 47px;
+  top: 12px;
+  left: 0;
+  object-fit: cover;
+}
+
+.dashboard .overlap-wrapper {
+  position: absolute;
+  width: 1132px;
+  height: 815px;
+  top: 173px;
+  left: 289px;
+}
+
+.dashboard .overlap-4 {
+  position: relative;
+  width: 1120px;
+  height: 815px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.dashboard .text-wrapper-7 {
+  position: absolute;
+  top: 43px;
+  left: 57px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.dashboard .text-wrapper-8 {
+  position: absolute;
+  top: 643px;
+  left: 57px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .notifications {
+  position: absolute;
+  width: 50px;
+  height: 58px;
+  top: 35px;
+  left: 1026px;
+}
+
+.dashboard .overlap-5 {
+  position: absolute;
+  width: 1025px;
+  height: 296px;
+  top: 112px;
+  left: 57px;
+  background-color: #ffcceebf;
+  border-radius: 15px;
+}
+
+.dashboard .welcome-to-nutriemom {
+  position: absolute;
+  top: 173px;
+  left: 379px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #a17992;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .fresh-nutrition-for {
+  position: absolute;
+  width: 615px;
+  top: 7px;
+  left: 378px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 55px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .span {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 55px;
+  letter-spacing: 0;
+}
+
+.dashboard .text-wrapper-9 {
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.dashboard .icon-dashboard {
+  width: 337px;
+  height: 275px;
+  top: 10px;
+  left: 12px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.dashboard .input-health-data-wrapper {
+  position: absolute;
+  width: 280px;
+  height: 193px;
+  top: 429px;
+  left: 57px;
+  background-color: #ffccee;
+  border-radius: 15px;
+}
+
+.dashboard .input-health-data {
+  position: relative;
+  width: 145px;
+  height: 147px;
+  top: 22px;
+  left: 69px;
+}
+
+.dashboard .input-your-health {
+  position: absolute;
+  top: 75px;
+  left: 10px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #a17992;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .icon-health-data {
+  position: absolute;
+  width: 100px;
+  height: 75px;
+  top: 0;
+  left: 21px;
+  object-fit: cover;
+}
+
+.dashboard .healtcare-post-wrapper {
+  position: absolute;
+  width: 280px;
+  height: 193px;
+  top: 429px;
+  left: 430px;
+  background-color: #ffccee;
+  border-radius: 15px;
+}
+
+.dashboard .healtcare-post {
+  position: relative;
+  width: 177px;
+  height: 155px;
+  top: 14px;
+  left: 52px;
+}
+
+.dashboard .text-wrapper-10 {
+  position: absolute;
+  top: 83px;
+  left: 10px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #a17992;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .icon-health-care {
+  position: absolute;
+  width: 114px;
+  height: 83px;
+  top: 0;
+  left: 31px;
+  object-fit: cover;
+}
+
+.dashboard .health-data-report-wrapper {
+  position: absolute;
+  width: 280px;
+  height: 193px;
+  top: 429px;
+  left: 802px;
+  background-color: #ffccee;
+  border-radius: 15px;
+}
+
+.dashboard .health-data-report-2 {
+  position: relative;
+  width: 129px;
+  height: 155px;
+  top: 14px;
+  left: 76px;
+}
+
+.dashboard .icon-health-data-2 {
+  position: absolute;
+  width: 70px;
+  height: 75px;
+  top: 0;
+  left: 33px;
+  object-fit: cover;
+}
+
+.dashboard .overlap-group-2 {
+  position: absolute;
+  width: 1025px;
+  height: 56px;
+  top: 681px;
+  left: 57px;
+  background-color: #ffccee;
+}
+
+.dashboard .p {
+  position: absolute;
+  width: 695px;
+  top: -10px;
+  left: 20px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #a17992;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dashboard .overlap-6 {
+  position: absolute;
+  width: 1025px;
+  height: 56px;
+  top: 746px;
+  left: 57px;
+  background-color: #ffccee;
+}
